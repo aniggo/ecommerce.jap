@@ -3,6 +3,6 @@
 //elementos HTML presentes.
 document.addEventListener("DOMContentLoaded", function(e){
 document.getElementById("botonIngresar").addEventListener("click", function(e){
-    window.location.href = "./index.html"
+    window.location.href = "./inicio.html"
 })
 });
