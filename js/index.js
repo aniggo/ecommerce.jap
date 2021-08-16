@@ -3,6 +3,11 @@
 //elementos HTML presentes.
 document.addEventListener("DOMContentLoaded", function(e){
 document.getElementById("loginBoton").addEventListener("click", function(e){
-    window.location.href = "./inicio.html"
+    var nombreUsuario = document.getElementById("nUsuario");
+    var nombrePassword = document.getElementById("nPassword");
+  if ((nombreUsuario.value !="") && (nombrePassword.value !="")) {
+window.location.href = "./inicio.html";
+  }
+    
 })
 });
