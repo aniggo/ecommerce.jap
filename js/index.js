@@ -2,7 +2,7 @@
 //que el documento se encuentra cargado, es decir, se encuentran todos los
 //elementos HTML presentes.
 document.addEventListener("DOMContentLoaded", function(e){
-document.getElementById("botonIngresar").addEventListener("click", function(e){
+document.getElementById("loginBoton").addEventListener("click", function(e){
     window.location.href = "./inicio.html"
 })
 });
